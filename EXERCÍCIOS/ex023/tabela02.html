@@ -14,6 +14,12 @@
             width: 800px;
             border-collapse: collapse;
         }
+        caption{
+            font-weight: bolder;
+            font-size: 1.5em;
+            padding: 5px;
+            background-color: lightgray;
+        }
       
         td{
             border: 1px solid black;
@@ -26,6 +32,7 @@
             padding: 10px;
             background-color: #EAECF0;
             text-align: justify;
+           
         }
       
 
@@ -37,6 +44,11 @@
             text-align: right;
             
         }
+        img{
+            width: 22px;
+            height: 15px;
+        }
+       
     </style>
 </head>
 <body>
@@ -55,18 +67,21 @@
 
 <!--ADICIONAR BANDEIRAS-->
 <table>
+    <caption>
+        População das Unidades Federativas
+    </caption>
     <thead>
         <tr>
-            <th>
+            <th scope="col">
                 Posição
             </th>
-            <th>
+            <th scope="col">
                 Estado
             </th>
-            <th>
+            <th scope="col" calss="wpx" >
                 População (2021)
             </th>
-            <th>
+            <th scope="col">
                 País Comparável
                  (Habitantes)
             </th>
@@ -78,7 +93,7 @@
                 01
             </td>
             <td>
-                São Paulo
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/33px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" alt="Bandeira do Estado de São Paulo">São Paulo
             </td>
             <td class="pop">
                 41 262 199	
@@ -473,7 +488,7 @@
     </tbody>
     <tfoot>
         <tr>
-            <th>
+            <th scope="row">
                 Total de Habitantes
             </th>
             <td>
