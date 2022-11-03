@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 300px;
+            height: 330px;
+            border-collapse: collapse;
+        }
+
+        tr, th, td{
+            border: 1px solid black;
+            
+            
+        }
+        col.cnome{
+            background-color: gray;
+            color: white;
+        }
+        col.csexo, col.cidade {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col" >Sexo</th>
+            <th scope="col" >Idade</th>
+            <th scope="col" >Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Lucas Carlos</td>
+            <td>Masculino</td>
+            <td>23</td>
+            <td>Empresario</td>
+        </tr>
+        <tr>
+            <td>Cláudio Cajado</td>
+            <td>Masculino</td>
+            <td>24</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Gustavo Guanabara</td>
+            <td>Masculino</td>
+            <td>32</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Lorena Reis</td>
+            <td>Feminino</td>
+            <td>30</td>
+            <td>Fisioterapeuta</td>
+        </tr>
+    </table>
+</body>
+</html>
